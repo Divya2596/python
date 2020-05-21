@@ -1,0 +1,387 @@
+#abs()
+
+##a=20
+##print(abs(a))
+##a=-25
+##print(abs(a))
+##a=-23.7
+##print(abs(a))
+
+#all()
+
+##var=[1,2,3,4]
+##print(all(var))
+##var=[0,2,3,5]
+##print(all(var))
+##var=[]
+##print(all(var))
+
+#any()
+
+##a = [4, 3, 2, 0]                              
+##print(any(a))                                   
+##b = [0, False]  
+##print(any(b))  
+##c = [0, False, 5]  
+##print(any(c))   
+##d = []  
+##print(any(d))  
+
+#ascii()
+
+##var = 'Python'  
+##print(ascii(var))   
+##var = 'Pythön'  
+##print(ascii(var))
+
+#bin()
+
+##x =  10    
+##print(bin(x))  
+##x=23
+##print(bin(x))
+
+#bool()
+
+##a = []  
+##print(bool(a))  
+##b = [0]  
+##print(bool(b))  
+##c = 0.0  
+##print(bool(c))  
+##var = None  
+##print(bool(var))  
+##boolean = True  
+##print(bool(boolean))
+##boolean1 = False  
+##print(bool(boolean1)) 
+##str = 'Easy string'  
+##print(bool(str))  
+
+#bytearray()
+
+##x=bytearray(4)
+##print(x)
+
+#bytes()
+
+##x=[1,2,3]
+##print(bytes(x))
+
+#callable()
+
+##x=5
+##print(callable(x))
+##x=list
+##print(callable(x))
+
+#chr()
+
+##a=67
+##print(chr(a))
+
+#complex()
+
+##x=3
+##print(complex(x))
+##x=4.67
+##print(complex(x))
+
+#delattr()
+
+##class Person:
+##  name = "John"
+##  age = 36
+##  country = "Norway"
+##
+##x = delattr(Person,'age')
+##print(x)
+
+#Dict()
+
+##var={'name':'dhoni','age':35}
+##print(var['name'])
+##print(var['age'])
+
+#dir()
+
+##a=5
+##print(dir(a))
+
+#divmod()
+
+##a=divmod(7,2)
+##print(a)
+
+#enumerate()
+
+##var="India is my country"
+##for x,y in enumerate(var):
+##    if y=='i':
+##        print("success")
+##    else:
+##        print("failure")
+
+#eval()
+
+##x=5
+##print(eval('x+2'))
+
+#exec()
+
+##exec('a=2;b=3;print(a+b)')
+
+#float()
+
+##a=3
+##print(float(a))
+
+#filter()
+
+##a=[10,20,35,40,50]
+##x=list(filter(lambda X:X%2==0,a))
+##print(x)
+
+#format()
+
+##var="dhoni"
+##var1="kohli"
+##print("{} and {} are best friends".format(var,var1))
+
+#frozenset()
+
+##a=(1,2,5,3,7)
+##print(frozenset(a))
+
+#getattr()
+
+##class Person:
+##  name = "John"
+##  age = 36
+##  country = "Norway"
+##
+##x = getattr(Person, 'age')
+##print(x)
+
+#globals()
+
+##age = 23
+##globals()['age'] = 25
+##print('The age is:', age)
+
+#hasattr()
+
+##class Person:
+##  name = "John"
+##  age = 36
+##  country = "Norway"
+##
+##x = hasattr(Person, 'age')
+##print(x)
+
+#hash()
+
+##a="india"
+##print(hash(a))
+
+#help()
+
+##help(print)
+
+#hex()
+
+##a=12
+##print(hex(a))
+
+#id()
+
+##a='india'
+##print(id(a))
+
+#input()
+
+##var=input("Enter name:")
+##print(var)
+
+#int()
+
+##a=56
+##print(int(a))
+
+#isinstance()
+
+##val = 10  
+##lst = [12,34,5,6,767]  
+##name = "Mohan"  
+##print(isinstance(val, int))  
+##print(isinstance(lst, list)) 
+##print(isinstance(name, str))  
+##print(isinstance(val, list))  
+
+#issubclass()
+
+##class myAge:
+##  age = 36
+##
+##class myObj(myAge):
+##  name = "John"
+##  age = myAge
+##
+##x = issubclass(myObj,myAge)
+##print(x)
+
+#iter()
+
+##list=[1,2,3,4]
+##list1=iter(list)
+##print(next(list1))
+
+#len()
+
+##a="india"
+##print(len(a))
+
+#list()
+
+##a=(1,2,5,7,3)
+##print(list(a))
+
+#locals()
+
+##def localsAbsent():  
+##    return locals()  
+##  
+##def localsPresent():  
+##    present = True  
+##    return locals()  
+##  
+##print(localsAbsent())  
+##print(localsPresent())
+
+#map()
+
+##a=[10,20,35,40,50]
+##x=list(map(lambda X:X%2==0,a))
+##print(x)
+
+#max()
+
+##a=(1,8,4,7,9)
+##print(max(a))
+
+#min()
+
+##a=(1,8,4,7,9)
+##print(min(a))
+
+#next()
+
+##list=[1,2,3,4]
+##list1=iter(list)
+##print(next(list1))
+##print(next(list1))
+##print(next(list1))
+
+#oct()
+
+##a=7
+##print(oct(a))
+
+#open()
+
+##var=open("Hello.txt","w")
+##var.write("Hello")
+##var.close()
+
+#ord()
+
+##str='A'
+##print(ord(str))
+
+#pow()
+
+##a=4
+##b=2
+##print(pow(a,b))
+
+#print()
+
+##print("hello")
+
+#range()
+
+##n=range(10)
+##print(list(n))
+##for x in n:
+##    print(x)
+
+#repr()
+
+##a="hello"
+##print(repr(a))
+
+#reverse()
+
+##a = ["a", "b", "c", "d"]
+##b = reversed(a)
+##for x in b:
+##  print(x)
+
+#round()
+
+##print(round(19.345,2))
+
+#set()
+
+##var="aaaabbbbccccdddd"
+##var1=set(var)
+##print(var1)
+
+#setattr()
+
+##class Person:
+##  name = "John"
+##  age = 36
+##  country = "Norway"
+##setattr(Person, 'age', 40)
+##x = getattr(Person, 'age')
+##print(x)
+
+#slice()
+
+##a = ("a", "b", "c", "d", "e", "f", "g", "h")
+##x = slice(4)
+##print(a[x])
+
+#sort()
+
+##var=['dhoni','zaheer','kohli','bharathi']
+##var.sort()
+##print(var)
+
+#str()
+
+##x = str(3.5)
+##print(x)
+
+#sum()
+
+##a = (1, 2, 3, 4, 5)
+##print(sum(a))
+
+#tuple()
+
+##x = tuple(("apple", "banana", "cherry"))
+##print(x)
+
+#type()
+
+##var="dhoni","kohli"
+##print(type(var))
+
+#zip()
+
+##a = ("John", "Charles", "Mike")
+##b = ("Jenny", "Christy", "Monica")
+##x = zip(a, b)
+##print(tuple(x))
