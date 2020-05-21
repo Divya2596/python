@@ -1,0 +1,240 @@
+#fibonacci series
+
+##n=int(input("Enter no.of series:"))
+##a=0
+##b=1
+##for i in range(n):
+##    print(a)
+##    c=a
+##    a=b
+##    b=c+b
+
+##n=int(input("Enter no.of series:"))
+##a=0
+##b=1
+##c=a+b
+##print(a)
+##print(b)
+##while c<=n:
+##    print(c)
+##    a=b
+##    b=c
+##    c=a+b
+  
+#factorial number
+
+##n=int(input("Enter number:"))
+##fact=1
+##while(n>0):
+##    fact=fact*n
+##    n=n-1
+##print("Factorial of the number is:",fact)
+
+#Even or Odd
+
+##num = int(input("Enter a number: "))
+##if (num % 2) == 0:
+##   print("Even")
+##else:
+##   print("Odd")
+
+#count the no of digits
+
+##n=int(input("Enter number:"))
+##count=0
+##while(n>0):
+##    count=count+1
+##    n=n//10
+##print("The number of digits in the number are:",count)
+
+#Reverse a string
+
+##a=str(input("Enter a string: "))
+##print("Reverse of the string is: ",a[::-1])
+
+#reverse number
+
+##n=int(input("Enter number: "))
+##rev=0
+##while(n>0):
+##    dig=n%10
+##    rev=rev*10+dig
+##    n=n//10
+##print("Reverse of the number:",rev)
+
+#armstrong number
+
+##num = int(input("Enter a number: "))
+##sum = 0
+##temp = num
+##while temp > 0:
+##   digit = temp % 10
+##   sum += digit ** 3
+##   temp //= 10
+##if num == sum:
+##   print(num,"is an Armstrong number")
+##else:
+##   print(num,"is not an Armstrong number")
+
+#number is palindrome or not
+
+##n=int(input("Enter number:"))
+##temp=n
+##rev=0
+##while(n>0):
+##    dig=n%10
+##    rev=rev*10+dig
+##    n=n//10
+##if(temp==rev):
+##    print("The number is a palindrome")
+##else:
+##    print("The number isn't a palindrome")
+
+#string is palindrome or not
+
+##string=input(("Enter a string:"))
+##if(string==string[::-1]):
+##      print("The string is a palindrome")
+##else:
+##      print("Not a palindrome")
+
+#prime number or not
+
+##number = int(input("Enter any number: "))
+##if number > 1:
+##    for i in range(2, number):
+##        if (number % i) == 0:
+##            print(number, "is not a prime number")
+##            break
+##    else:
+##        print(number, "is a prime number")
+
+#Largest Among Three Numbers
+
+##num1 = int(input("Enter any number1: "))
+##num2 = int(input("Enter any number2: "))
+##num3 = int(input("Enter any number3: "))
+##if (num1 >= num2) and (num1 >= num3):
+##   largest = num1
+##elif (num2 >= num1) and (num2 >= num3):
+##   largest = num2
+##else:
+##   largest = num3
+##print("The largest number is", largest)
+
+#leap year or not
+
+##year = int(input("Enter a year: "))  
+##if (year % 4) == 0:  
+##   if (year % 100) == 0:  
+##       if (year % 400) == 0:  
+##           print("is a leap year")  
+##       else:  
+##           print("is not a leap year")  
+##   else:  
+##       print("is a leap year")  
+##else:  
+##   print("is not a leap year")
+
+#List
+
+##var=['dhoni','raina','virat']
+##var.append('ashwin')
+##print(var)
+
+##var=['dhoni','raina','virat']
+##var.extend(['ashwin','rahul'])
+##print(var)
+
+##var=['dhoni','raina','virat']
+##var.pop()
+##print(var)
+
+##var=['dhoni','raina','virat']
+##var.pop(1)
+##print(var)
+
+##var=['dhoni','raina','virat']
+##var.remove('raina')
+##print(var)
+
+##var=['dhoni','raina','virat']
+##var.clear()
+##print(var)
+
+##var="India is my country"
+##var1=list(var)
+##var1=var.split('i')
+##print(var1)
+
+##var=['dhoni','raina','virat']
+##var.insert(2,'ashwin')
+##print(var)
+
+##var=['dhoni','virat','raina']
+##var.sort()
+##print(var)
+
+#Dictionary
+
+##var={'name':'dhoni','age':36}
+##var1={'no':7,'avg':59.36}
+##var.update(var1)
+##print(var)
+
+##var={'name':'dhoni','age':36}
+##for x in var.values():
+##    print(x)
+
+##var={'name':'dhoni','age':36}
+##for x in var.items():
+##    print(x)
+
+#*args
+
+##def fun(*name):
+##    print(name)
+##fun("dhoni","raina","virat")
+
+##def fun(*name):
+##    print("students name: " , name)
+##fun("dhoni", "divya", "vijay")
+
+##def fun(*name):
+##  print("The youngest child name is " + name[2])
+##fun("dhoni", "divya", "vijay")
+
+#**kwargs
+
+##def fun(**name):
+##  print("His last name is " + name["fname"])
+##fun(fname = "Tobias", lname = "Refsnes")
+
+#Calculator program
+
+##def add(x,y):
+##    return x+y
+##def sub(x,y):
+##    return x-y
+##def mul(x,y):
+##    return x*y
+##def div(x,y):
+##    return x/y
+##print("Select option:")
+##print("1.add")
+##print("2.sub")
+##print("3.mul")
+##print("4.div")
+##choice=input("Enter choice:")
+##a=int(input("Enter the number:"))
+##b=int(input("Enter the number:"))
+##if choice=='1':
+##    print(add(a,b))
+##elif choice=='2':
+##    print(sub(a,b))
+##elif choice=='3':
+##    print(mul(a,b))
+##elif choice=='4':
+##    print(div(a,b))
+##else:
+##    print("invalid")
