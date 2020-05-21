@@ -1,0 +1,249 @@
+##Car program:
+
+class ola:
+    def __init__(Self,innova,jeep,alto,swift,indica):
+        Self.a=innova
+        Self.b=jeep
+        Self.c=alto
+        Self.d=swift
+        Self.e=indica
+    def car_list(Self):
+        num=input("""List of the cars available:
+                  1.innova=6 seats
+                  2.jeep=6 seats
+                  3.alto=4 seats
+                  4.swift=4 seats
+                  5.indica=4 seats""")
+        print(num)
+    def car_name(Self):
+        var=input("Enter car no:")
+        if var=='1':
+            print(Self.a)
+        elif var=='2':
+            print(Self.b)
+        elif var=='3':
+            print(Self.c)
+        elif var=='4':
+            print(Self.d)
+        elif var=='5':
+            print(Self.e)
+        else:
+            print("cars not available")
+            print(end)
+class travel(ola):
+    def __init__(Self,distance):
+        Self.f=distance
+    def km(Self):
+        num1=int(input("Enter total km to be travelled:"))
+        print(num1*7)
+c=ola('','','','','')
+c.car_list()
+c.car_name()
+cab=travel('')
+cab.km()
+
+#Area of a Rectangle
+
+##class rectangle:
+##    def __init__(Self,length,breadth):
+##        Self.a=length
+##        Self.b=breadth
+##    def area(Self):
+##        total=Self.a*Self.b
+##        print(total)
+##x=int(input("Enter the length of the rectangle:" ))
+##y=int(input("Enter the breadth of the rectangle:" ))
+##R=rectangle(x,y)
+##R.area()
+
+#Area and the Perimeter of the Circle
+
+##class circle():
+##    def __init__(self,radius):
+##        self.radius=radius
+##    def area(self):
+##        print(3.14*(self.radius**2))
+##    def perimeter(self):
+##        print(2*3.14*self.radius)
+##r=int(input("Enter radius of circle: "))
+##C=circle(r)
+##C.area()
+##C.perimeter()
+
+##calendar program
+
+##import calendar
+##yy = int(input("Enter year: "))  
+##mm = int(input("Enter month: "))  
+##print(calendar.month(yy, mm))
+
+
+
+##class cname:
+##    def __init__(Self):
+##        pass
+##        print("hello")
+##    def running(Self):
+##        print("second running")
+##    def running(Self,Name):
+##        print("Running",Name)
+##C=cname()
+##C.running('7')
+
+##class cname:
+##    def __init__(Self,IP):
+##        Self.a=IP
+##    print("Hello")
+##    def Running(Self):
+##        print("first",Self.a)
+##class name(cname):
+##    def walking(Self):
+##        print("second")
+##C=name("127.01.2")
+##C.Running()
+##C.walking()
+
+##class cname:
+##    def __init__(Self,name,no,eng,tam):
+##        Self.a=name
+##        Self.b=no
+##        Self.c=eng
+##        Self.d=tam
+##    def student_detail(Self):
+##        print(Self.a,Self.b)
+##class second_name(cname):
+##    def parsed_student(Self):
+##        print(Self.a,Self.b,Self.c)
+##second_obj=second_name('divya',5,70,89)
+##second_obj.parsed_student()
+##second_obj.student_detail()
+
+##class new:
+##    def __init__(self,id,pwd):
+##        self.id=id
+##        self.pwd=pwd
+##    def fun(self):
+##        print(self.id,self.pwd)
+##class old(new):
+##    def __init__(self,id,pwd):
+##        self.id=id
+##        self.pwd=pwd
+##    def fun1(self):
+##        print(self.id,self.pwd)
+##a=old("127.76.89","hgfdhwgf")
+##a.fun()
+##a.fun1()
+
+##class cname:
+##    def __init__(Self,Name,No,Eng,Tam):
+##         Self.a=Name
+##         Self.b=No
+##         Self.c=Eng
+##         Self.d=Tam
+##    def parsed_student(Self,Team):
+##         print(Self.a,Self.b,Team)
+##class Second_name(cname):
+##     def __parsed_student(Self):
+##         print(Self.a,Self.b,Self.c)
+##Second_obj=Second_name('dhoni',7,70,80)
+##Second_obj.parsed_student('csk')
+
+#Star pattern programs:
+
+##n=int(input("Enter number of rows: "))
+##for i in range (n,0,-1):
+##    print((n-i) * ' ' + i * '*')
+
+##n=6
+##myList = [] 
+##for i in range(1,n): 
+##    myList.append("* "*i) 
+##print("\n".join(myList))
+
+##rows = int(input("Enter the number of rows "))
+##for num in range(rows):
+##    for i in range(num):
+##        print(num, end=" ")  
+##    print("")
+
+##rows = int(input("Enter the number of rows "))
+##for row in range(1, rows+1):
+##    for column in range(1, row + 1):
+##        print(column, end=' ')
+##    print("")
+
+##rows = int(input("enter number of rows "))
+##b = 0
+##for i in range(rows, 0, -1):
+##    b += 1
+##    for j in range(1, i + 1):
+##        print(b, end=' ')
+##    print('\r')
+
+##rows = int(input("Enter number of rows "))
+##num = rows
+##for i in range(rows, 0, -1):
+##    for j in range(0, i):
+##        print(num, end=' ')
+##    print("\r")
+
+##rows = int(input("Enter number of rows "))
+##for i in range(rows, 0, -1):
+##    num = i
+##    for j in range(0, i):
+##        print(num, end=' ')
+##    print("\r")
+
+##rows = int(input("Enter number of rows "))
+##for i in range(rows, 0, -1):
+##    for j in range(0, i + 1):
+##        print(j, end=' ')
+##    print("\r")
+
+##rows = int(input("Enter the number of rows "))
+##for row in range(1, rows):
+##    for column in range(row, 0, -1):
+##        print(column, end=' ')
+##    print("")
+
+##rows = int(input("Enter the number of rows "))
+##for i in range(0, rows + 1, 1):
+##    for j in range(i + 1, rows + 1, 1):
+##        print(j, end=' ')
+##    print()
+
+##rows = int(input("Enter the number of rows "))
+##for i in range(1, rows + 1):
+##    for j in range(1, rows + 1):
+##        if j <= i:
+##            print(i, end=' ')
+##        else:
+##            print(j, end=' ')
+##    print()
+
+##rows = int(input("Enter the size of pattern "))
+##k = 2 * rows - 2
+##for i in range(0, rows):
+##    for j in range(0, k):
+##        print(end=" ")
+##    k = k - 2
+##    for j in range(0, i + 1):
+##        print("* ", end="")
+##    print("")
+
+##rows = int(input("Enter the size of pattern "))
+##for i in range(0, rows):
+##    for j in range(0, i + 1):
+##        print("*", end=' ')
+##    print("\r")
+##
+##for i in range(rows, 0, -1):
+##    for j in range(0, i - 1):
+##        print("*", end=' ')
+##    print("\r")
+
+##word = input("enter the word")
+##x = ""
+##for i in word:
+##    x += i
+##    print(x)
